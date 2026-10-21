@@ -1,0 +1,13 @@
+streamlit>=1.40,<2
+pandas>=2.2
+numpy>=1.26
+scikit-learn==1.8.0  # Must match the bundled model artifact (trained with 1.8.0)
+joblib>=1.3
+plotly>=5.24
+mcp>=1.9,<2
+pytest>=8.0
+
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+
+httpx>=0.27,<1
